@@ -1,0 +1,3 @@
+[INFO]  Namespace(dataset='ml1m', name='neural_symbolic_model', seed=123, gpu=0, epochs=20, batch_size=128, lr=0.1, steps_per_checkpoint=100, embed_size=100, deep_module=True, use_dropout=True, rank_weight=10.0, topk_candidates=10, sample_size=15, do_infer=False, do_execute=True, log_dir='../../data/ml1m/preprocessed/cafe/tmp/neural_symbolic_model', symbolic_model='../../data/ml1m/preprocessed/cafe/tmp/neural_symbolic_model/symbolic_model_epoch20.ckpt', infer_path_data='../../data/ml1m/preprocessed/cafe/tmp/neural_symbolic_model/infer_path_data.pkl', device=device(type='cuda', index=0))
+[INFO]  1
+[INFO]  NDCG=11.701 | Recall=4.981 | HR=36.364 | Precision=10.588 | Isolation Index=0.894 | Coverage=0.226 | wNDCG=0.118
